@@ -3,6 +3,7 @@
 import { Phone, EnvelopeSimple, InstagramLogo, LinkedinLogo } from "@phosphor-icons/react";
 import { MagneticButton } from "@/components/ui/MagneticButton";
 import { Reveal } from "@/components/ui/Reveal";
+import { ContactForm } from "@/components/contact/ContactForm";
 import { AGENT, NAV_LINKS } from "@/lib/data";
 
 export function ContactCta() {
@@ -41,6 +42,8 @@ export function ContactCta() {
             </div>
           </div>
         </Reveal>
+
+        <ContactForm />
 
         <div className="mt-20 flex flex-col gap-6 border-t border-line pt-8 md:flex-row md:items-center md:justify-between">
           <p className="text-sm text-muted">
