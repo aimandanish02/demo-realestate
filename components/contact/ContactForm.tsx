@@ -6,7 +6,7 @@ import { Reveal } from "@/components/ui/Reveal";
 
 type Status = "idle" | "submitting" | "success" | "error";
 
-const TURNSTILE_SITE_KEY = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY ?? "";
+const TURNSTILE_SITE_KEY = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY as string;
 
 const fieldClass =
   "w-full rounded-2xl border border-line bg-transparent px-4 py-3.5 text-sm text-foreground placeholder:text-muted/70 transition-colors duration-300 outline-none focus:border-accent/60";
