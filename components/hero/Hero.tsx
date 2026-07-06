@@ -100,7 +100,7 @@ export function Hero() {
             className="relative h-full w-full overflow-hidden rounded-3xl"
           >
             <Image
-              src="https://picsum.photos/seed/kl-luxury-residence-dusk/1000/1250"
+              src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=1000&h=1250&fit=crop&auto=format&q=80"
               alt="Luxury residence in Kuala Lumpur at dusk"
               fill
               priority

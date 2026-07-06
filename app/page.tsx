@@ -4,6 +4,7 @@ import { FeaturedListings } from "@/components/listings/FeaturedListings";
 import { About } from "@/components/about/About";
 import { ProcessSlides } from "@/components/process/ProcessSlides";
 import { Testimonials } from "@/components/testimonials/Testimonials";
+import { TeamSection } from "@/components/team/TeamSection";
 import { NeighbourhoodGrid } from "@/components/neighbourhoods/NeighbourhoodGrid";
 import { ContactCta } from "@/components/contact/ContactCta";
 
@@ -16,6 +17,7 @@ export default function Home() {
       <About />
       <ProcessSlides />
       <Testimonials />
+      <TeamSection />
       <NeighbourhoodGrid />
       <ContactCta />
     </main>

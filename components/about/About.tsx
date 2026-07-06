@@ -61,7 +61,7 @@ export function About() {
         <Reveal className="relative">
           <div className="relative aspect-[3/4] max-w-[440px] overflow-hidden rounded-3xl">
             <Image
-              src="https://picsum.photos/seed/property-advisor-portrait/900/1200"
+              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=900&h=1200&fit=crop&auto=format&q=80"
               alt={`${AGENT.name}, ${AGENT.title}`}
               fill
               sizes="(max-width: 1024px) 90vw, 440px"

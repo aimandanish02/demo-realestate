@@ -4,6 +4,7 @@ import { Phone, EnvelopeSimple, InstagramLogo, LinkedinLogo } from "@phosphor-ic
 import { MagneticButton } from "@/components/ui/MagneticButton";
 import { Reveal } from "@/components/ui/Reveal";
 import { ContactForm } from "@/components/contact/ContactForm";
+import { CalendlyEmbed } from "@/components/contact/CalendlyEmbed";
 import { AGENT, NAV_LINKS } from "@/lib/data";
 
 export function ContactCta() {
@@ -42,6 +43,16 @@ export function ContactCta() {
             </div>
           </div>
         </Reveal>
+
+        <Reveal delay={0.15}>
+          <h3 className="mt-20 font-display text-2xl font-medium">
+            Or pick a slot directly
+          </h3>
+          <p className="mt-2 max-w-[48ch] text-sm text-muted">
+            Live availability below — book a consultation without waiting for a reply.
+          </p>
+        </Reveal>
+        <CalendlyEmbed />
 
         <ContactForm />
 
